@@ -1,0 +1,29 @@
+# KiCad backup files
+**/*-backups/
+**/*.bak
+**/*.lck
+
+# KiCad temporary files
+**/*.kicad_prl
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build / temporary files
+build/
+dist/
+tmp/
+temp/
+
+# Logs
+*.log

@@ -1,0 +1,278 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "989f1fa7-5126-43f2-b6cf-4a836a9410e2")
+	(paper "A4")
+	(lib_symbols)
+	(text "FUEL CELL MONITORING"
+		(exclude_from_sim no)
+		(at 204.978 189.738 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(bold yes)
+				(color 129 67 35 1)
+			)
+		)
+		(uuid "7cc4781c-d45d-4ca0-b8d6-83cb7b04af7d")
+	)
+	(text "30.04.2026"
+		(exclude_from_sim no)
+		(at 211.328 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 140 66 44 1)
+			)
+		)
+		(uuid "8c169d75-8768-44ba-8662-a627c8956511")
+	)
+	(text "NAME: SAMIR PATEL\n\nMATRICULATION NO: 541161"
+		(exclude_from_sim no)
+		(at 178.816 173.482 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.254)
+				(color 120 45 41 1)
+			)
+			(justify left)
+		)
+		(uuid "ad69ddc6-14e2-4ec9-ae0a-24b9fb47c8f3")
+	)
+	(sheet
+		(at 27.94 97.79)
+		(size 57.15 58.42)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29800bae-9431-43d0-b02b-eb2bf37a3786")
+		(property "Sheetname" "ADC1"
+			(at 27.94 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC1.kicad_sch"
+			(at 27.94 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 99.06)
+		(size 62.23 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b88f0d3-a0df-4505-ae7c-f56d79db2d6d")
+		(property "Sheetname" "Micro-Controller"
+			(at 198.12 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Micro-Controller.kicad_sch"
+			(at 198.12 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 21.59)
+		(size 58.42 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "42e18106-566e-46d7-beef-b3ee6dff65e5")
+		(property "Sheetname" "Current_Measurement"
+			(at 25.4 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Measurement.kicad_sch"
+			(at 25.4 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 22.86)
+		(size 59.69 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2bbe3cf-2a37-4f75-bc46-95d8b2f91572")
+		(property "Sheetname" "Voltage_Measurement"
+			(at 113.03 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage_Measurement.kicad_sch"
+			(at 113.03 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 22.86)
+		(size 54.61 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e918bb58-8b43-4457-b203-20106768b14b")
+		(property "Sheetname" "Reference_voltages"
+			(at 198.12 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Reference_voltages.kicad_sch"
+			(at 198.12 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 99.06)
+		(size 57.15 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5a8e681-35d7-4e87-8793-99c7bd2b1a9a")
+		(property "Sheetname" "ADC2"
+			(at 114.3 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC2.kicad_sch"
+			(at 114.3 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Kicad board Design"
+				(path "/989f1fa7-5126-43f2-b6cf-4a836a9410e2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
