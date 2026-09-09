@@ -39,38 +39,25 @@ The multilayer design supports:
 - High-current routing
 - Improved signal integrity and noise performance
 
+## Design Tools
+
+- KiCad – Schematic capture and PCB layout
+- ESP32-S3 – Microcontroller interface
+- Multilayer PCB design for mixed-signal applications
+
 ## Project Structure
 
-```text
-Fuel-Cell-Monitoring-PCB/
-├── Docs/
-│   ├── Fuel Cell Monitoring Report.pdf
-│   └── Images/
-├── Kicad/
-│   ├── *.kicad_pro
-│   ├── *.kicad_sch
-│   ├── *.kicad_pcb
-│   ├── My Symbols/
-│   └── MY Footprints/
-├── README.md
-└── .gitignore
-```
+- `Kicad/` – KiCad schematics, PCB layout, symbols and footprints
+- `Docs/` – Project report and documentation images
+- `.gitignore` – Files excluded from Git tracking
 
-## Tools
+## Project Status
 
-- **KiCad** – Schematic and PCB design
-- **ESP32-S3** – Digital control and interface
-- **GitHub** – Project version control and documentation
+PCB schematic and 6-layer PCB layout completed in KiCad.
 
-## Future Work
+## Future Improvements
 
 - PCB manufacturing and assembly
-- Hardware bring-up and testing
-- Sensor calibration
-- Measurement accuracy evaluation
+- Hardware testing and calibration
 - ESP32-S3 firmware development
-- Real-time monitoring and data logging
-
-## License
-
-This project is intended for educational, engineering, and portfolio purposes.
+- Measurement accuracy and noise evaluation
