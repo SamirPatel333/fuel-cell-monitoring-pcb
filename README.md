@@ -2,7 +2,7 @@
 
 ## Overview
 
-A custom **6-layer mixed-signal PCB** designed in **KiCad** for monitoring a **500 W PEM fuel cell system**.
+A custom **6-layer mixed-signal PCB** designed in **KiCad** for monitoring a **PEM fuel cell system**.
 
 The board measures fuel-cell voltage and current, conditions the analog signals, performs ADC conversion, provides digital isolation, and interfaces with an **ESP32-S3**.
 
